@@ -1,0 +1,61 @@
+body {
+  margin: 20px 40px;
+}
+
+.paper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.paper:hover {
+  cursor: pointer;
+  color: #666666;
+}
+
+.detail-logo {
+  height: 30px;
+  float: right;
+}
+
+.paper-authors {
+  padding: 0 30px;
+}
+
+.paper-dialog {
+  padding: 30px 50px;
+}
+
+.welcome-description {
+  width: 80%;
+  margin: 20px 0;
+  padding: 20px 10px;
+}
+
+.welcome-item {
+  opacity: 0;
+  transition: .5s ease all;
+}
+
+.flex-align-mid {
+  display: flex;
+  align-items: center;
+}
+
+.paper-title-date {
+  margin-left: 20px;
+}
+
+.title {
+  padding: 10px;
+  font-weight: bolder;
+  color: black
+}
+
+.App {
+  background-color: #707070;
+}
