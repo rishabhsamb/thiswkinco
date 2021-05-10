@@ -4,7 +4,7 @@ This Week in Combinatorics and Optimization is a web app that updates weekly wit
 
 It uses the arXiv API to source papers, a node.js cron-worker to update a Redis store with the papers bi-weekly, and an Express server to serve a static React + Material UI frontend and single API route.
 
-Deploying is costly, so until I can, enjoy these pictures of the app instead.
+Deploying is costly, so until I can, enjoy these pictures of the app in development instead.
 
 ![picture of app displaying the first page with many papers dated
 between April and May 2021](assets/thiswkinco1.png) 
