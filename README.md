@@ -7,4 +7,5 @@ It uses the arXiv API to source papers, a node.js cron-worker to update a Redis 
 Deploying is costly, so until I can, enjoy this picture of the app instead.
 
 ![picture of app displaying the first page with many papers dated
-between April and May 2021](assets/thiswkinco.png) 
+between April and May 2021](assets/thiswkinco1.png) 
+![picture of app displaying details about a single paper, including a link to the paper on arXiv](assets/thiswkinco2.png)
