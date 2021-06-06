@@ -36,9 +36,6 @@ return (
         <Typography className="title" variant="h4" component="h1" color="primary">
             This Week in Combinatorics and Optimization
         </Typography>
-        {/* <Typography variant="h6" component="h1">
-            Found {numPapers} papers
-        </Typography> */}
         {papersOnPage.map((paper, i) => <Article key={i} paper={paper} onClick={() => {
             handleClickOpen()
             selectPaper(paper)}}/>)}
